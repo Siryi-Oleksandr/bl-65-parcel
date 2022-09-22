@@ -1,0 +1,53 @@
+.values__container {
+    width: 1440px;
+    padding: 0px 150px;
+}
+.values {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.values__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 41px;
+    line-height: 1.2;
+        
+    text-align: center;
+    
+    color: #000000;
+}
+.values__text {
+    display: block;
+    width: 698px;
+    align-items: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 2.7;
+          
+    text-align: center;
+    
+    color: #737373;
+}
+
+.values__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 180px;
+    flex-direction: row;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.values__item {
+    width: 150px;
+    padding: 0;
+    margin: 0;
+
+}
