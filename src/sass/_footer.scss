@@ -1,0 +1,39 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.footer {
+  background: #0e0e33;
+  border-radius: 0px;
+  width: 1440px;
+  padding-left: 140px;
+  padding-top: 122px;
+}
+
+.box {
+  display: flex;
+}
+
+.list {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #ffffff;
+}
