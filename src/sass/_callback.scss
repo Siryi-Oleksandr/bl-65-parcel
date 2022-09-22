@@ -1,0 +1,57 @@
+.section-call{
+    position: relative;
+    width: 1440px;
+    height: 1036px;  
+
+    background-image: url(../images/callback.png);
+}
+
+.callback{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 30px 50px;
+    width: 528px;
+
+
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+    width: 500px;
+
+    &__title{
+        display: block;
+        margin-bottom: 125px;
+
+        font-size: 25px;
+        line-height: calc(38 / 25);
+    
+            color: #000000;
+    }
+
+    &__input{
+        width: 100%;
+        margin-bottom: 30px;
+
+        border: 1px solid #E8E8E8;
+        border-radius: 4px;
+
+    }
+
+    &__textarea{
+        width: 100%;
+        margin-bottom: 40px;
+
+        border: 1px solid #E8E8E8;
+        border-radius: 4px;
+        resize: none;
+
+    }
+
+    &__btn{
+        background: #0A8BFE;
+        border: none;
+        border-radius: 4px;
+    }
+  }
