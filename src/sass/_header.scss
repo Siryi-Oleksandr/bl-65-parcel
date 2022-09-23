@@ -1,5 +1,11 @@
 .header {
-  background-color: rgb(7, 7, 44);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: transparent;
+  // background-color: rgb(7, 7, 44);
   padding: 15px 0;
 }
 
@@ -17,8 +23,19 @@
   margin-right: 414px;
 }
 
+.logo-text__icon {
+  fill: white;
+  transition: fill 250ms ease-in-out;
+
+  .logo-text:hover &,
+  .logo-text:focus & {
+    fill: orangered;
+  }
+}
+
 .logo-icon {
   margin-right: 9px;
+  fill: white;
 }
 
 .header__list {
@@ -38,10 +55,12 @@
 
 .header__link {
   padding: 15px 0;
+  transition: color 250ms ease-in-out, transform 250ms ease-in-out;
 
   &:hover,
   &:focus {
-    color: red;
+    color: orangered;
+    transform: scale(1.2);
   }
 }
 
@@ -58,9 +77,19 @@
   line-height: calc(16 / 13);
   text-align: center;
   color: #ffffff;
-  background-color: red;
+  background-color: transparent;
 
   border: 1px solid #ffffff;
   border-radius: 4px;
   cursor: pointer;
+
+  transition: color 250ms ease-in-out, border-color 250ms ease-in-out,
+    transform 250ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.2);
+    color: orangered;
+    border-color: orangered;
+  }
 }
