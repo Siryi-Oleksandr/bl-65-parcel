@@ -14,39 +14,14 @@
   align-items: center;
 }
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.logo-text {
-  margin-right: 414px;
-}
-
-.logo-text__icon {
-  fill: white;
-  transition: fill 250ms ease-in-out;
-
-  .logo-text:hover &,
-  .logo-text:focus & {
-    fill: orangered;
-  }
-}
-
-.logo-icon {
-  margin-right: 9px;
-  fill: white;
-}
-
 .header__list {
+  margin-left: 414px;
   display: flex;
   align-items: center;
   gap: 50px;
 }
 
 .header__item {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 13px;
   line-height: calc(30 / 13);
@@ -64,7 +39,7 @@
   }
 }
 
-.button {
+.btn-header {
   margin-left: auto;
   width: 138px;
   height: 40px;
@@ -83,8 +58,7 @@
   border-radius: 4px;
   cursor: pointer;
 
-  transition: color 250ms ease-in-out, border-color 250ms ease-in-out,
-    transform 250ms ease-in-out;
+  transition: color 250ms ease-in-out, border-color 250ms ease-in-out, transform 250ms ease-in-out;
 
   &:hover,
   &:focus {

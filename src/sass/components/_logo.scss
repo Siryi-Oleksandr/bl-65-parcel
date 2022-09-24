@@ -1,0 +1,15 @@
+.logo-text__icon {
+  fill: white;
+  transition: fill 250ms ease-in-out;
+
+  .logo-text:hover &,
+  .logo-text:focus & {
+    fill: orangered;
+  }
+}
+
+.logo-icon {
+  margin-right: 9px;
+  fill: white;
+  opacity: 0.29;
+}
