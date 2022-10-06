@@ -1,76 +1,76 @@
-.tittle {
-  // width: 1440px;
-  // height: 880px;
-  // left: 0%;
-  // right: 0%;
-  // top: 0px;
-  background: #0e0e33;
-  // border-radius: 0px;
+.proud {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 150px;
+
+  background-image: linear-gradient(to bottom, #0e0e33 45%, #ffffff 45%);
 }
-.hero-two {
-  height: 50px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
+
+.proud__title {
+  margin-bottom: 80px;
+
   font-size: 41px;
-  line-height: 50px;
+  line-height: calc(50 / 41);
   text-align: center;
-  color: #ffffff;
+
+  color: $white-txt-color;
 }
-// .hero-tit-text {
-//   display: flex;
-//
-// }
-// .hero-text-two {
-//   display: flex;
-//   padding-right: 238px;
-// }
-// .hero-text-thre {
-//   display: flex;
-//   padding-right: 280px;
-// }
-.hero-nub-one {
+.proud__list {
+  margin-bottom: 100px;
+
   display: flex;
-  padding-right: 238px;
-  padding-left: 180px;
-  height: 50px;
-  left: 0%;
-  right: 71.76%;
-  top: 0px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 42px;
-  line-height: 50px;
-
-  color: #ffffff;
+  gap: 140px;
+  justify-content: center;
 }
-.hero-nub-two {
-  display: flex;
-  padding-right: 280px;
-
-  height: 50px;
-  left: 0%;
-  right: 71.76%;
-  top: 0px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
+// .proud__item {
+//   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+// }
+.proud__quatity {
   font-size: 42px;
-  line-height: 50px;
+  line-height: calc(50 / 42);
 
-  color: #ffffff;
+  color: $white-txt-color;
 }
+.proud__text {
+  margin-top: 15px;
 
-.hero-text {
-  height: 60px;
-  left: 0%;
-  right: 31.76%;
-  top: 65px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
+  width: 120px;
   font-size: 11px;
-  line-height: 30px;
-  color: #ffffff;
+  line-height: calc(30 / 11);
+
+  color: $white-txt-color;
+}
+
+.card-set {
+  margin-bottom: 41px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card-set__item {
+  padding: 10px;
+  flex-basis: 565px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-set__wrapper {
+  padding: 35px 30px;
+
+  background-color: #fff;
+}
+.card-set__title {
+  margin-bottom: 25px;
+  font-size: 24px;
+  line-height: calc(38 / 24);
+
+  color: #000000;
+}
+.card-set__text {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+
+  color: #737373;
 }
